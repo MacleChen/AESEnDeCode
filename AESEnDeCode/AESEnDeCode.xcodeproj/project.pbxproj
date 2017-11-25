@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52462645D0BE593D06C38EF3 /* libPods-AESEnDeCodeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 451017AD480654CB381A3CAB /* libPods-AESEnDeCodeUITests.a */; };
+		5E143F7E3B0BA3F3AB516D8B /* libPods-AESEnDeCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86BD68FD59099A57E3F4AB4D /* libPods-AESEnDeCode.a */; };
+		60619B17F031ADF00C675AC7 /* libPods-AESEnDeCodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A73A13B4A9B3904A87020E /* libPods-AESEnDeCodeTests.a */; };
+		670E76E61FC3F56A00553CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E76E51FC3F56A00553CDB /* AppDelegate.m */; };
+		670E76E91FC3F56A00553CDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E76E81FC3F56A00553CDB /* ViewController.m */; };
+		670E76EB1FC3F56A00553CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670E76EA1FC3F56A00553CDB /* Assets.xcassets */; };
+		670E76EE1FC3F56A00553CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670E76EC1FC3F56A00553CDB /* Main.storyboard */; };
+		670E76F11FC3F56A00553CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E76F01FC3F56A00553CDB /* main.m */; };
+		670E76FC1FC3F56A00553CDB /* AESEnDeCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E76FB1FC3F56A00553CDB /* AESEnDeCodeTests.m */; };
+		670E77071FC3F56A00553CDB /* AESEnDeCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77061FC3F56A00553CDB /* AESEnDeCodeUITests.m */; };
+		670E771F1FC3FA3B00553CDB /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E771D1FC3FA3B00553CDB /* NSData+CommonCrypto.m */; };
+		670E77201FC3FA3B00553CDB /* AESCryptJointSky.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E771E1FC3FA3B00553CDB /* AESCryptJointSky.m */; };
+		670E77241FC41B8E00553CDB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 670E77231FC41B8E00553CDB /* README.md */; };
+		670E77271FC41C7400553CDB /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77261FC41C7400553CDB /* RequestViewController.m */; };
+		670E772C1FC4278100553CDB /* WebDataResponseInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E772B1FC4278100553CDB /* WebDataResponseInterface.m */; };
+		670E772F1FC4284F00553CDB /* tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E772D1FC4284F00553CDB /* tools.m */; };
+		670E77481FC42DDB00553CDB /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77321FC42DDA00553CDB /* NSObject+MJClass.m */; };
+		670E77491FC42DDB00553CDB /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77351FC42DDA00553CDB /* NSString+MJExtension.m */; };
+		670E774A1FC42DDB00553CDB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77371FC42DDA00553CDB /* MJExtensionConst.m */; };
+		670E774B1FC42DDB00553CDB /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E773B1FC42DDA00553CDB /* MJFoundation.m */; };
+		670E774C1FC42DDB00553CDB /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E773C1FC42DDA00553CDB /* MJPropertyKey.m */; };
+		670E774D1FC42DDB00553CDB /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E773D1FC42DDA00553CDB /* NSObject+MJProperty.m */; };
+		670E774E1FC42DDB00553CDB /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E773F1FC42DDA00553CDB /* MJPropertyType.m */; };
+		670E774F1FC42DDB00553CDB /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77401FC42DDB00553CDB /* MJDictionaryCache.m */; };
+		670E77501FC42DDB00553CDB /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77411FC42DDB00553CDB /* NSObject+MJCoding.m */; };
+		670E77511FC42DDB00553CDB /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77431FC42DDB00553CDB /* NSObject+MJKeyValue.m */; };
+		670E77521FC42DDB00553CDB /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 670E77461FC42DDB00553CDB /* MJProperty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670E76F81FC3F56A00553CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670E76D91FC3F56A00553CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670E76E01FC3F56A00553CDB;
+			remoteInfo = AESEnDeCode;
+		};
+		670E77031FC3F56A00553CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670E76D91FC3F56A00553CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670E76E01FC3F56A00553CDB;
+			remoteInfo = AESEnDeCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8F0C0EFB3D3EEDA60C29BF /* Pods-AESEnDeCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEnDeCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AESEnDeCodeTests/Pods-AESEnDeCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA827A9D69BF2B34E1D404F /* Pods-AESEnDeCodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEnDeCodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AESEnDeCodeUITests/Pods-AESEnDeCodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		451017AD480654CB381A3CAB /* libPods-AESEnDeCodeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AESEnDeCodeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670E76E11FC3F56A00553CDB /* AESEnDeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESEnDeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670E76E41FC3F56A00553CDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		670E76E51FC3F56A00553CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		670E76E71FC3F56A00553CDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		670E76E81FC3F56A00553CDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		670E76EA1FC3F56A00553CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670E76ED1FC3F56A00553CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670E76EF1FC3F56A00553CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670E76F01FC3F56A00553CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670E76F21FC3F56A00553CDB /* AESEnDeCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AESEnDeCode.entitlements; sourceTree = "<group>"; };
+		670E76F71FC3F56A00553CDB /* AESEnDeCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESEnDeCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670E76FB1FC3F56A00553CDB /* AESEnDeCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESEnDeCodeTests.m; sourceTree = "<group>"; };
+		670E76FD1FC3F56A00553CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670E77021FC3F56A00553CDB /* AESEnDeCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESEnDeCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670E77061FC3F56A00553CDB /* AESEnDeCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESEnDeCodeUITests.m; sourceTree = "<group>"; };
+		670E77081FC3F56A00553CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670E771B1FC3FA3B00553CDB /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		670E771C1FC3FA3B00553CDB /* AESCryptJointSky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCryptJointSky.h; sourceTree = "<group>"; };
+		670E771D1FC3FA3B00553CDB /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		670E771E1FC3FA3B00553CDB /* AESCryptJointSky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCryptJointSky.m; sourceTree = "<group>"; };
+		670E77221FC4113C00553CDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		670E77231FC41B8E00553CDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		670E77251FC41C7400553CDB /* RequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		670E77261FC41C7400553CDB /* RequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		670E772A1FC4278100553CDB /* WebDataResponseInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDataResponseInterface.h; sourceTree = "<group>"; };
+		670E772B1FC4278100553CDB /* WebDataResponseInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebDataResponseInterface.m; sourceTree = "<group>"; };
+		670E772D1FC4284F00553CDB /* tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tools.m; sourceTree = "<group>"; };
+		670E772E1FC4284F00553CDB /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		670E77311FC42DD900553CDB /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		670E77321FC42DDA00553CDB /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		670E77331FC42DDA00553CDB /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		670E77341FC42DDA00553CDB /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		670E77351FC42DDA00553CDB /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		670E77361FC42DDA00553CDB /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		670E77371FC42DDA00553CDB /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		670E77381FC42DDA00553CDB /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		670E77391FC42DDA00553CDB /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		670E773A1FC42DDA00553CDB /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		670E773B1FC42DDA00553CDB /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		670E773C1FC42DDA00553CDB /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		670E773D1FC42DDA00553CDB /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		670E773E1FC42DDA00553CDB /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		670E773F1FC42DDA00553CDB /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		670E77401FC42DDB00553CDB /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		670E77411FC42DDB00553CDB /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		670E77421FC42DDB00553CDB /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		670E77431FC42DDB00553CDB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		670E77441FC42DDB00553CDB /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		670E77451FC42DDB00553CDB /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		670E77461FC42DDB00553CDB /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		670E77471FC42DDB00553CDB /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		670E77531FC42E3E00553CDB /* AESEnDeCode-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AESEnDeCode-PrefixHeader.pch"; sourceTree = "<group>"; };
+		86BD68FD59099A57E3F4AB4D /* libPods-AESEnDeCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AESEnDeCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5E7500F67CACEE1977A94D /* Pods-AESEnDeCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEnDeCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AESEnDeCodeTests/Pods-AESEnDeCodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DFEBE4EDFE886A0AAE5225B /* Pods-AESEnDeCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEnDeCodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AESEnDeCodeUITests/Pods-AESEnDeCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A065B3E35F8C3BA2E5783CC1 /* Pods-AESEnDeCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEnDeCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AESEnDeCode/Pods-AESEnDeCode.release.xcconfig"; sourceTree = "<group>"; };
+		A9A73A13B4A9B3904A87020E /* libPods-AESEnDeCodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AESEnDeCodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E9CD92C82B969BE7B6A2E8 /* Pods-AESEnDeCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEnDeCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AESEnDeCode/Pods-AESEnDeCode.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670E76DE1FC3F56A00553CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E143F7E3B0BA3F3AB516D8B /* libPods-AESEnDeCode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E76F41FC3F56A00553CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60619B17F031ADF00C675AC7 /* libPods-AESEnDeCodeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E76FF1FC3F56A00553CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52462645D0BE593D06C38EF3 /* libPods-AESEnDeCodeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670E76D81FC3F56A00553CDB = {
+			isa = PBXGroup;
+			children = (
+				670E77231FC41B8E00553CDB /* README.md */,
+				670E76E31FC3F56A00553CDB /* AESEnDeCode */,
+				670E76FA1FC3F56A00553CDB /* AESEnDeCodeTests */,
+				670E77051FC3F56A00553CDB /* AESEnDeCodeUITests */,
+				670E76E21FC3F56A00553CDB /* Products */,
+				670E77211FC4113C00553CDB /* Frameworks */,
+				B3A7C19F0698A276156CB7DB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		670E76E21FC3F56A00553CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670E76E11FC3F56A00553CDB /* AESEnDeCode.app */,
+				670E76F71FC3F56A00553CDB /* AESEnDeCodeTests.xctest */,
+				670E77021FC3F56A00553CDB /* AESEnDeCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670E76E31FC3F56A00553CDB /* AESEnDeCode */ = {
+			isa = PBXGroup;
+			children = (
+				670E77281FC4274000553CDB /* Helpers */,
+				670E77191FC3FA1F00553CDB /* Vendors */,
+				670E77141FC3F88300553CDB /* Delegate */,
+				670E77161FC3F89E00553CDB /* Controllers */,
+				670E77151FC3F89700553CDB /* Views */,
+				670E77181FC3F8B600553CDB /* Resources */,
+				670E76EA1FC3F56A00553CDB /* Assets.xcassets */,
+				670E76EF1FC3F56A00553CDB /* Info.plist */,
+				670E76F01FC3F56A00553CDB /* main.m */,
+				670E76F21FC3F56A00553CDB /* AESEnDeCode.entitlements */,
+				670E77531FC42E3E00553CDB /* AESEnDeCode-PrefixHeader.pch */,
+			);
+			path = AESEnDeCode;
+			sourceTree = "<group>";
+		};
+		670E76FA1FC3F56A00553CDB /* AESEnDeCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				670E76FB1FC3F56A00553CDB /* AESEnDeCodeTests.m */,
+				670E76FD1FC3F56A00553CDB /* Info.plist */,
+			);
+			path = AESEnDeCodeTests;
+			sourceTree = "<group>";
+		};
+		670E77051FC3F56A00553CDB /* AESEnDeCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				670E77061FC3F56A00553CDB /* AESEnDeCodeUITests.m */,
+				670E77081FC3F56A00553CDB /* Info.plist */,
+			);
+			path = AESEnDeCodeUITests;
+			sourceTree = "<group>";
+		};
+		670E77141FC3F88300553CDB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				670E76E41FC3F56A00553CDB /* AppDelegate.h */,
+				670E76E51FC3F56A00553CDB /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		670E77151FC3F89700553CDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				670E76EC1FC3F56A00553CDB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		670E77161FC3F89E00553CDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				670E76E71FC3F56A00553CDB /* ViewController.h */,
+				670E76E81FC3F56A00553CDB /* ViewController.m */,
+				670E77251FC41C7400553CDB /* RequestViewController.h */,
+				670E77261FC41C7400553CDB /* RequestViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		670E77181FC3F8B600553CDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		670E77191FC3FA1F00553CDB /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				670E77301FC42DD000553CDB /* MJExtension */,
+				670E771A1FC3FA2C00553CDB /* AESCRypt */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		670E771A1FC3FA2C00553CDB /* AESCRypt */ = {
+			isa = PBXGroup;
+			children = (
+				670E771C1FC3FA3B00553CDB /* AESCryptJointSky.h */,
+				670E771E1FC3FA3B00553CDB /* AESCryptJointSky.m */,
+				670E771B1FC3FA3B00553CDB /* NSData+CommonCrypto.h */,
+				670E771D1FC3FA3B00553CDB /* NSData+CommonCrypto.m */,
+			);
+			path = AESCRypt;
+			sourceTree = "<group>";
+		};
+		670E77211FC4113C00553CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670E77221FC4113C00553CDB /* AppKit.framework */,
+				86BD68FD59099A57E3F4AB4D /* libPods-AESEnDeCode.a */,
+				A9A73A13B4A9B3904A87020E /* libPods-AESEnDeCodeTests.a */,
+				451017AD480654CB381A3CAB /* libPods-AESEnDeCodeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670E77281FC4274000553CDB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				670E772E1FC4284F00553CDB /* tools.h */,
+				670E772D1FC4284F00553CDB /* tools.m */,
+				670E772A1FC4278100553CDB /* WebDataResponseInterface.h */,
+				670E772B1FC4278100553CDB /* WebDataResponseInterface.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		670E77301FC42DD000553CDB /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				670E77361FC42DDA00553CDB /* MJDictionaryCache.h */,
+				670E77401FC42DDB00553CDB /* MJDictionaryCache.m */,
+				670E77341FC42DDA00553CDB /* MJExtension.h */,
+				670E773A1FC42DDA00553CDB /* MJExtensionConst.h */,
+				670E77371FC42DDA00553CDB /* MJExtensionConst.m */,
+				670E77441FC42DDB00553CDB /* MJFoundation.h */,
+				670E773B1FC42DDA00553CDB /* MJFoundation.m */,
+				670E77471FC42DDB00553CDB /* MJProperty.h */,
+				670E77461FC42DDB00553CDB /* MJProperty.m */,
+				670E77451FC42DDB00553CDB /* MJPropertyKey.h */,
+				670E773C1FC42DDA00553CDB /* MJPropertyKey.m */,
+				670E77311FC42DD900553CDB /* MJPropertyType.h */,
+				670E773F1FC42DDA00553CDB /* MJPropertyType.m */,
+				670E77381FC42DDA00553CDB /* NSObject+MJClass.h */,
+				670E77321FC42DDA00553CDB /* NSObject+MJClass.m */,
+				670E77331FC42DDA00553CDB /* NSObject+MJCoding.h */,
+				670E77411FC42DDB00553CDB /* NSObject+MJCoding.m */,
+				670E77421FC42DDB00553CDB /* NSObject+MJKeyValue.h */,
+				670E77431FC42DDB00553CDB /* NSObject+MJKeyValue.m */,
+				670E77391FC42DDA00553CDB /* NSObject+MJProperty.h */,
+				670E773D1FC42DDA00553CDB /* NSObject+MJProperty.m */,
+				670E773E1FC42DDA00553CDB /* NSString+MJExtension.h */,
+				670E77351FC42DDA00553CDB /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		B3A7C19F0698A276156CB7DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9CD92C82B969BE7B6A2E8 /* Pods-AESEnDeCode.debug.xcconfig */,
+				A065B3E35F8C3BA2E5783CC1 /* Pods-AESEnDeCode.release.xcconfig */,
+				2B8F0C0EFB3D3EEDA60C29BF /* Pods-AESEnDeCodeTests.debug.xcconfig */,
+				8A5E7500F67CACEE1977A94D /* Pods-AESEnDeCodeTests.release.xcconfig */,
+				9DFEBE4EDFE886A0AAE5225B /* Pods-AESEnDeCodeUITests.debug.xcconfig */,
+				3CA827A9D69BF2B34E1D404F /* Pods-AESEnDeCodeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670E76E01FC3F56A00553CDB /* AESEnDeCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670E770B1FC3F56B00553CDB /* Build configuration list for PBXNativeTarget "AESEnDeCode" */;
+			buildPhases = (
+				12DB7CBDD6844E1741FDC07E /* [CP] Check Pods Manifest.lock */,
+				670E76DD1FC3F56A00553CDB /* Sources */,
+				670E76DE1FC3F56A00553CDB /* Frameworks */,
+				670E76DF1FC3F56A00553CDB /* Resources */,
+				58BDD79771CCF906E89E780A /* [CP] Embed Pods Frameworks */,
+				B3F99084ADE376F4890E4100 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESEnDeCode;
+			productName = AESEnDeCode;
+			productReference = 670E76E11FC3F56A00553CDB /* AESEnDeCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670E76F61FC3F56A00553CDB /* AESEnDeCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670E770E1FC3F56B00553CDB /* Build configuration list for PBXNativeTarget "AESEnDeCodeTests" */;
+			buildPhases = (
+				3F4C3F84DDBFA30D2B0AE2DF /* [CP] Check Pods Manifest.lock */,
+				670E76F31FC3F56A00553CDB /* Sources */,
+				670E76F41FC3F56A00553CDB /* Frameworks */,
+				670E76F51FC3F56A00553CDB /* Resources */,
+				7C26E706D2996225510B901A /* [CP] Embed Pods Frameworks */,
+				2CFEBD522D65EFCA32C4D4D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670E76F91FC3F56A00553CDB /* PBXTargetDependency */,
+			);
+			name = AESEnDeCodeTests;
+			productName = AESEnDeCodeTests;
+			productReference = 670E76F71FC3F56A00553CDB /* AESEnDeCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		670E77011FC3F56A00553CDB /* AESEnDeCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670E77111FC3F56B00553CDB /* Build configuration list for PBXNativeTarget "AESEnDeCodeUITests" */;
+			buildPhases = (
+				2BB7AA7D70D983F5184EC76C /* [CP] Check Pods Manifest.lock */,
+				670E76FE1FC3F56A00553CDB /* Sources */,
+				670E76FF1FC3F56A00553CDB /* Frameworks */,
+				670E77001FC3F56A00553CDB /* Resources */,
+				CBA06DB44EF0D70B722D21E0 /* [CP] Embed Pods Frameworks */,
+				FD78E43CD7403E10F56D1D7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670E77041FC3F56A00553CDB /* PBXTargetDependency */,
+			);
+			name = AESEnDeCodeUITests;
+			productName = AESEnDeCodeUITests;
+			productReference = 670E77021FC3F56A00553CDB /* AESEnDeCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670E76D91FC3F56A00553CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "陈帆";
+				TargetAttributes = {
+					670E76E01FC3F56A00553CDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					670E76F61FC3F56A00553CDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 670E76E01FC3F56A00553CDB;
+					};
+					670E77011FC3F56A00553CDB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 670E76E01FC3F56A00553CDB;
+					};
+				};
+			};
+			buildConfigurationList = 670E76DC1FC3F56A00553CDB /* Build configuration list for PBXProject "AESEnDeCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670E76D81FC3F56A00553CDB;
+			productRefGroup = 670E76E21FC3F56A00553CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670E76E01FC3F56A00553CDB /* AESEnDeCode */,
+				670E76F61FC3F56A00553CDB /* AESEnDeCodeTests */,
+				670E77011FC3F56A00553CDB /* AESEnDeCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670E76DF1FC3F56A00553CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E77241FC41B8E00553CDB /* README.md in Resources */,
+				670E76EB1FC3F56A00553CDB /* Assets.xcassets in Resources */,
+				670E76EE1FC3F56A00553CDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E76F51FC3F56A00553CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E77001FC3F56A00553CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DB7CBDD6844E1741FDC07E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESEnDeCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB7AA7D70D983F5184EC76C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESEnDeCodeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CFEBD522D65EFCA32C4D4D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESEnDeCodeTests/Pods-AESEnDeCodeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4C3F84DDBFA30D2B0AE2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESEnDeCodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BDD79771CCF906E89E780A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESEnDeCode/Pods-AESEnDeCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C26E706D2996225510B901A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESEnDeCodeTests/Pods-AESEnDeCodeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F99084ADE376F4890E4100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESEnDeCode/Pods-AESEnDeCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA06DB44EF0D70B722D21E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESEnDeCodeUITests/Pods-AESEnDeCodeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD78E43CD7403E10F56D1D7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AESEnDeCodeUITests/Pods-AESEnDeCodeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670E76DD1FC3F56A00553CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E77501FC42DDB00553CDB /* NSObject+MJCoding.m in Sources */,
+				670E77521FC42DDB00553CDB /* MJProperty.m in Sources */,
+				670E774E1FC42DDB00553CDB /* MJPropertyType.m in Sources */,
+				670E774A1FC42DDB00553CDB /* MJExtensionConst.m in Sources */,
+				670E77481FC42DDB00553CDB /* NSObject+MJClass.m in Sources */,
+				670E77511FC42DDB00553CDB /* NSObject+MJKeyValue.m in Sources */,
+				670E772C1FC4278100553CDB /* WebDataResponseInterface.m in Sources */,
+				670E774B1FC42DDB00553CDB /* MJFoundation.m in Sources */,
+				670E77201FC3FA3B00553CDB /* AESCryptJointSky.m in Sources */,
+				670E771F1FC3FA3B00553CDB /* NSData+CommonCrypto.m in Sources */,
+				670E772F1FC4284F00553CDB /* tools.m in Sources */,
+				670E77271FC41C7400553CDB /* RequestViewController.m in Sources */,
+				670E76E91FC3F56A00553CDB /* ViewController.m in Sources */,
+				670E774D1FC42DDB00553CDB /* NSObject+MJProperty.m in Sources */,
+				670E76F11FC3F56A00553CDB /* main.m in Sources */,
+				670E77491FC42DDB00553CDB /* NSString+MJExtension.m in Sources */,
+				670E774C1FC42DDB00553CDB /* MJPropertyKey.m in Sources */,
+				670E76E61FC3F56A00553CDB /* AppDelegate.m in Sources */,
+				670E774F1FC42DDB00553CDB /* MJDictionaryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E76F31FC3F56A00553CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E76FC1FC3F56A00553CDB /* AESEnDeCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670E76FE1FC3F56A00553CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670E77071FC3F56A00553CDB /* AESEnDeCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670E76F91FC3F56A00553CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670E76E01FC3F56A00553CDB /* AESEnDeCode */;
+			targetProxy = 670E76F81FC3F56A00553CDB /* PBXContainerItemProxy */;
+		};
+		670E77041FC3F56A00553CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670E76E01FC3F56A00553CDB /* AESEnDeCode */;
+			targetProxy = 670E77031FC3F56A00553CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670E76EC1FC3F56A00553CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670E76ED1FC3F56A00553CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670E77091FC3F56B00553CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		670E770A1FC3F56B00553CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		670E770C1FC3F56B00553CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E9CD92C82B969BE7B6A2E8 /* Pods-AESEnDeCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AESEnDeCode/AESEnDeCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EDA8EGULN6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AESEnDeCode/AESEnDeCode-PrefixHeader.pch";
+				INFOPLIST_FILE = AESEnDeCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.AESEnDeCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		670E770D1FC3F56B00553CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A065B3E35F8C3BA2E5783CC1 /* Pods-AESEnDeCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AESEnDeCode/AESEnDeCode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EDA8EGULN6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AESEnDeCode/AESEnDeCode-PrefixHeader.pch";
+				INFOPLIST_FILE = AESEnDeCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.AESEnDeCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		670E770F1FC3F56B00553CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8F0C0EFB3D3EEDA60C29BF /* Pods-AESEnDeCodeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EDA8EGULN6;
+				INFOPLIST_FILE = AESEnDeCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.AESEnDeCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESEnDeCode.app/Contents/MacOS/AESEnDeCode";
+			};
+			name = Debug;
+		};
+		670E77101FC3F56B00553CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5E7500F67CACEE1977A94D /* Pods-AESEnDeCodeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EDA8EGULN6;
+				INFOPLIST_FILE = AESEnDeCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.AESEnDeCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESEnDeCode.app/Contents/MacOS/AESEnDeCode";
+			};
+			name = Release;
+		};
+		670E77121FC3F56B00553CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFEBE4EDFE886A0AAE5225B /* Pods-AESEnDeCodeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EDA8EGULN6;
+				INFOPLIST_FILE = AESEnDeCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.AESEnDeCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AESEnDeCode;
+			};
+			name = Debug;
+		};
+		670E77131FC3F56B00553CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA827A9D69BF2B34E1D404F /* Pods-AESEnDeCodeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EDA8EGULN6;
+				INFOPLIST_FILE = AESEnDeCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jointsky.AESEnDeCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AESEnDeCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670E76DC1FC3F56A00553CDB /* Build configuration list for PBXProject "AESEnDeCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E77091FC3F56B00553CDB /* Debug */,
+				670E770A1FC3F56B00553CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670E770B1FC3F56B00553CDB /* Build configuration list for PBXNativeTarget "AESEnDeCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E770C1FC3F56B00553CDB /* Debug */,
+				670E770D1FC3F56B00553CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670E770E1FC3F56B00553CDB /* Build configuration list for PBXNativeTarget "AESEnDeCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E770F1FC3F56B00553CDB /* Debug */,
+				670E77101FC3F56B00553CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670E77111FC3F56B00553CDB /* Build configuration list for PBXNativeTarget "AESEnDeCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670E77121FC3F56B00553CDB /* Debug */,
+				670E77131FC3F56B00553CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670E76D91FC3F56A00553CDB /* Project object */;
+}
